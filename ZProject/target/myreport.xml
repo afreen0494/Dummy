@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="74.951">
+<testcase classname="practiceautomation testing" name="Deleting item from cart" time="74.393">
+<system-out><![CDATA[Given User on home page6....................................................passed
+And select the shop for a product and add to cart...........................passed
+Then clicks on view basket..................................................passed
+And delete the unwanted item................................................passed
+Then deleted message appear on screen.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,101 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-12T14:05:08.278Z",
+        "line": 69,
+        "name": "Deleting item from cart",
+        "description": "",
+        "id": "practiceautomation-testing;deleting-item-from-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31843000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User on home page6",
+            "match": {
+              "location": "com.stepdefinitions.Test_Myaccount_Deletecartitem.user_on_home_page6()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24926000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "select the shop for a product and add to cart",
+            "match": {
+              "location": "com.stepdefinitions.Test_Myaccount_Deletecartitem.select_the_shop_for_a_product_and_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2283000000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "clicks on view basket",
+            "match": {
+              "location": "com.stepdefinitions.Test_Myaccount_Deletecartitem.clicks_on_view_basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6772000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "delete the unwanted item",
+            "match": {
+              "location": "com.stepdefinitions.Test_Myaccount_Deletecartitem.delete_the_unwanted_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8332000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "deleted message appear on screen",
+            "match": {
+              "location": "com.stepdefinitions.Test_Myaccount_Deletecartitem.deleted_message_appear_on_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Practiceautomation"
+          },
+          {
+            "name": "@TC_Deletecartitem"
+          }
+        ]
+      }
+    ],
+    "name": "practiceautomation testing",
+    "description": "",
+    "id": "practiceautomation-testing",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/ZProjectFolder/project.feature",
+    "tags": [
+      {
+        "name": "@Practiceautomation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
